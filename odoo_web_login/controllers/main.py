@@ -22,14 +22,16 @@
 ##############################################################################
 
 import ast
-from odoo.addons.web.controllers.main import Home
-from odoo.addons.auth_signup.controllers.main import AuthSignupHome
-import pytz
 import datetime
 import logging
 
+import pytz
+from odoo.addons.auth_signup.controllers.main import AuthSignupHome
+from odoo.addons.web.controllers.main import Home
+
 from odoo import http
 from odoo.http import request
+
 _logger = logging.getLogger(__name__)
 
 
